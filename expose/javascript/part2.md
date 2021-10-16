@@ -38,10 +38,8 @@
 17. Result: [2, 4, 6] ; Walkthrough: This function returns back an array of [2, 4, 6]. The reason for is that we can see the function takes an existing array and another function as a parameter. It then creates another array, and for every element in the existing array, it calls the input function on it and pushes it into the new array. This input function doubles the value of its input number. So, the net effect is that, in the for loop, every element in the original array is doubled and the result is put into the new array, and the new array is then returned. Given an input [1, 2, 3], the result must be [2, 4, 6].
 18. See part2-question18.js
 19. The output of the above code in the console line by line is:
-    - (start)
     - 1
     - 4
     - 3
     - 2
-    - (end)
-    - This is because setTimeout queues instructions to execute with their respective delays strictly after the currently running thread, regardless of their delays. This is why 3 comes after 4 (intuitively unexpected) and then 2 comes after 3 as it has a longer delay.
+This is because setTimeout queues instructions to execute with their respective delays strictly after the currently running thread, regardless of their delays. This is why 3 comes after 4 (intuitively unexpected) and then 2 comes after 3 as it has a longer delay.
