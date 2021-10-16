@@ -34,4 +34,12 @@
     - E) false ; loose equality between true and 2 typecasts true from boolean to number 1. 1 == 2 is false;
     - F) true ; Boolean(2) is an explicit typecast that evaluates to true. Strict equality between true and true is true as they are the same type and value.
 15. The difference between '==' and '===' is that '==' is has a loose sense of equality that considers implicit type conversions when types are different. Meanwhile, '===' has a strict sense of equality where the types and value must be equal and does not perform imlpicit type coinversions. 
-16. 
+16. See part2-question16.js
+17. Result: [2, 4, 6] ; Walkthrough: This function returns back an array of [2, 4, 6]. The reason for is that we can see the function takes an existing array and another function as a parameter. It then creates another array, and for every element in the existing array, it calls the input function on it and pushes it into the new array. This input function doubles the value of its input number. So, the net effect is that, in the for loop, every element in the original array is doubled and the result is put into the new array, and the new array is then returned. Given an input [1, 2, 3], the result must be [2, 4, 6].
+18. See part2-question18.js
+19. The output of the above code in the console line by line is:
+    - 1
+    - 4
+    - 3
+    - 2
+    This is because setTimeout queues instructions to execute with their respective delays strictly after the currently running thread, regardless of their delays. This is why 3 comes after 4 (intuitively unexpected) and then 2 comes after 3 as it has a longer delay.
