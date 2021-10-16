@@ -42,4 +42,5 @@
     - 4
     - 3
     - 2
+\
 This is because setTimeout queues instructions to execute with their respective delays strictly after the currently running thread, regardless of their delays. This is why 3 comes after 4 (intuitively unexpected) and then 2 comes after 3 as it has a longer delay.
