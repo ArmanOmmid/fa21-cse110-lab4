@@ -1,4 +1,4 @@
-# Lab 4 Part 1 Answers:
+# Lab 4 Expose : Part 1 Answers:
 
 1. Line 9 prints "values added: 20"
 2. Line 13 prints "final: 20"

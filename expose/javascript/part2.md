@@ -1,4 +1,4 @@
-# Lab 4 Part 2 Answers:
+# Lab 4 Expose : Part 2 Answers:
 
 1. Line 12 will effectively output the length of the "prices" parameter to the console. This is because the value of "i" is incremented exactly as many times as the length of variable "prices". As a "var"-type variable, it is in scope as it is in the same function-scope as its initialization so it is accessible.
 2. Line 13 will output the price of the last element of the "prices" parameter after being discounted to the console. This is because the value of "discountedPrice" will be set to its last previous assignment which happens in the preceeding for-loop that most recently assigns it to be the price of the last element of the "prices" parameter after being discounted. As a "var"-type variable, it is in scope as it is in the same function-scope as its initialization so it is accessible.

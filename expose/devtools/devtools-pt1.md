@@ -1,4 +1,4 @@
-# Lab 4 Part 2 Basic DevTools Answers
+# Lab 4 Expose : DevTools Part 1 Answers
 
 1. citylots.json
 2. expose.js
